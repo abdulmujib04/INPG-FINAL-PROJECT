@@ -1,5 +1,7 @@
 @import "nav.css";
 @import "home.css";
+@import "about.css";
+@import "contact.css";
 
 body {
    font-family: "century Gothic", Arial, Helvetica, sans-serif;

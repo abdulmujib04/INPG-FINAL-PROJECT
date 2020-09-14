@@ -7,6 +7,10 @@ div {
     display: block;
 }
 
+body {
+    margin: 0px;
+}
+
 .todo {
     width: 70%;
     margin: 0 auto;
@@ -38,10 +42,37 @@ div {
 }
 
 .paragraph-styling {
-    margin: 0;
+    margin: 0px 50px 0px 0px;
     font-size: 20px;
 }
 
 .to-dos {
     margin-top: 25px;
+}
+
+.list {
+    text-align: left;
+    margin: 20px;
+    width: 1000px;
+}
+
+.buttoncheck {
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(153, 153, 153);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hapus {
+    padding: 5px;
+    background-color: rgb(153, 153, 153);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
 }

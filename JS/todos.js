@@ -24,6 +24,7 @@ addToDoButton.addEventListener('click', function(){
         paragraph.style.textDecoration = "line-through";
     })
     check.addEventListener('dblclick', function(){
+        paragraph.style.textDecoration = "none";
     })
     hapus.addEventListener('click', function(){
         div.removeChild(paragraph);

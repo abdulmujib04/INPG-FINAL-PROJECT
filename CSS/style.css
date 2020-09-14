@@ -2,6 +2,9 @@
 @import "home.css";
 @import "about.css";
 @import "contact.css";
+@import "portfolio.css";
+@import 'footer.css';
+@import "blog.css";
 
 body {
    font-family: "century Gothic", Arial, Helvetica, sans-serif;

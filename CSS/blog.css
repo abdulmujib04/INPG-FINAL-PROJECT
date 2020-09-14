@@ -1,0 +1,64 @@
+.blog-body{
+    width: auto;
+    height: 580px;
+
+}
+
+.blog-body h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.blog-body p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.rowblog{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 40px;
+}
+
+.kolom-blog {
+    flex: 0 0 50%;
+    max-width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0px 60px 0px 30px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.kolom-blog img {
+    padding: 10px 0px 10px 10px;
+}
+
+.kolom-blog:hover{
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+}
+
+.desain1 img{
+    width: 300px;
+    height: 230px;
+    padding: 30px 20px 20px 20px;
+}
+
+.desain2 img{
+    width: 300px;
+    height: 230px;
+    padding: 30px 20px 20px 20px;
+}
+
+.desain3 img{
+    width: 250px;
+    height: 250px;
+    padding: 30px 20px 20px 20px;
+}

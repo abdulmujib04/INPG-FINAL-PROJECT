@@ -26,6 +26,10 @@
     transition: all 0.5s;
 }
 
+.desc p {
+    font-size: 20px;    
+}
+
 @keyframes lamp {
     0% {color: red;}
     10% {color: yellow;}

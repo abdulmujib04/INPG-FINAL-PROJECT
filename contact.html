@@ -17,17 +17,27 @@
         <a href="contact.html">CONTACT</a>
         <a href="todos.html">TODOS</a>
     </div>
-    <div class="contact-form">
-        <h1>CONTACT</h1>
-        <div class="fill-form">
-            <form action="#">
-                <input type="text" name="Name" placeholder="Your Name">
-                <input type="text" name="Name" placeholder="Last Name">
-                <input type="text" name="Name" placeholder="Email">
-                <input type="text" name="Name" placeholder="message">
+    <div class="form-body">
+        <h1 class="title-form">CONTACT</h1>
+        <div class="contact-form">
+            <form>
+                
+                <label >First Name</label>
+                <input type="text"name="firstname" placeholder="Your name..">
+                  
+                <label for="lname">Last Name</label>
+                <input type="text" name="lastname" placeholder="Your last name..">
+                  
+                <label for="country">Your Email</label>
+                <input type="text" id="yemail" placeholder="Your E-Mail">
+                  
+                <label for="subject">Subject</label>
+                <textarea id="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                <input type="submit" value="Submit">
+                  
             </form>
         </div>
-
     </div>
 </body>
 </html>

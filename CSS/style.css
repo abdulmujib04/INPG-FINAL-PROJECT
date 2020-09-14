@@ -1,0 +1,28 @@
+@import "nav.css";
+@import "home.css";
+
+body {
+   font-family: "century Gothic", Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+.head{
+    display: block;
+    background-color: #f6f6f6;
+    height: 133px;
+}
+div {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}

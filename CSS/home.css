@@ -1,0 +1,46 @@
+.back-home {
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 1349px;
+    height: 500px;
+    padding-bottom: 138px;
+}
+
+.body-home{
+    background-color: rgba(145, 145, 145, 0.466);
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 240px;
+    height: 290px;
+}
+
+.body-home h1{
+    font-size: 45px;
+}
+
+.body-home h2{
+    font-size: 45px;
+}
+
+.body-home h4{
+    font-size: 25px;
+}
+
+.body-home button {
+    padding: 10px 15px 10px 15px;
+    margin: 0px 40px 0px 40px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.body-home a {
+    color: white;
+    font-weight: bolder;
+}
+
+.body-home button:hover {
+    background-color: rgb(163, 163, 163);
+    transition: all 0.3s; 
+}
